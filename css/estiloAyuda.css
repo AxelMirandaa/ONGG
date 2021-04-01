@@ -1,0 +1,48 @@
+
+
+body{
+    margin: 40px 100px 20px 100px ;
+
+    background-color: #1e81b0;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+h1, h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img{
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+ul{
+    padding-left: 150px;
+
+}
+li{
+    text-align: left;
+}
+
+.seccion{
+    display: inline;
+    margin-left: 10%;
+    
+}
+
+.opcion{
+    margin-left: 40px;
+}
+
+.noazul{
+    text-decoration: none;
+    color: white;
+}
+
+

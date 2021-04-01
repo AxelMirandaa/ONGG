@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+body{
+    background-color: #1e81b0;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+
+
+}
+
+img{
+    width: 12%;
+    border-color: aliceblue;
+}
+
+.seccionizq{
+    background-color: #1f1b1b;
+    float: left;
+    width: 20%;
+    height: 100vh;
+
+
+    
+}
+
+#menu{
+    margin-top: 50px;
+}
+
+.noazul{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #1f1b1b ;
+    color: #9c9c9c;
+    font-size: 105%;
+}
+
+.formaBloque{
+    height: 25vh;
+    width: 80%;
+    padding-top: 20px;
+    float: left;
+}
+
+#bloque1{
+    background-color: #1e81b0;
+}
+
+
+#bloque2 {
+    background-color: #e74c3c;
+    color: aliceblue;
+}
+
+#bloque3{
+    background-color: #2ecc71;
+}
+
+#bloque4{
+    background-color: #EAB543;
+}
