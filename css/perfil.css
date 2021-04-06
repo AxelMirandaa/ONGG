@@ -12,23 +12,16 @@ body{
 }
 
 .imagen{
-    width: 350px;
+    width: 320px;
     padding-top: 65px;
 }
-
-/*especial perro2 ayun*/
-
-
-
-
-/*imagen y texto*/
 
 .perfil{
     padding-top: 65px;
 }
 
 .info{
-    padding: 10rem 0 0 2rem;
+    padding: 10rem 2rem 0 0rem;
 }
 
 /*Pantalla mediana ipad tablet*/
@@ -82,7 +75,7 @@ body{
 
 
     /*Pantalla extra grande*/
-    @media  (min-width: 1200px){
+    @media  (min-width: 1400px){
 
         body{
             background: #b0531e;

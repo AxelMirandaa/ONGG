@@ -45,4 +45,12 @@ li{
     color: white;
 }
 
+/*Pantalla celular*/
+@media (max-width: 576px) {
+    body{
+        background:#8a2be2 ;
+    }
+
+    
+}
 
