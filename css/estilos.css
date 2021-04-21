@@ -25,11 +25,19 @@ img{
     float: left;
     width: 20%;
     height: 100vh;
-
-
-    
+ 
 }
 
+#formulario{
+    padding-top: 3rem;
+    float: right;
+    width: 60%;
+    padding-right: 20%;
+}
+
+label{
+    margin-top: 2px;
+}
 #menu{
     margin-top: 50px;
 }
