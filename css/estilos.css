@@ -25,7 +25,7 @@ img{
     float: left;
     width: 20%;
     height: 100vh;
- 
+
 }
 
 #formulario{
@@ -77,4 +77,25 @@ a:hover{
 
 #bloque4{
     background-color: #EAB543;
+}
+
+/*formulario*/
+
+input.error,
+textarea.error {
+    border: 2px dashed #9c0f0f;
+    font-weight: 300;
+    color: #ff0000;
+}
+
+label.error {
+    color: #a10d0d;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.valid,
+textarea.valid {
+    border: 2px solid #008000;
 }
