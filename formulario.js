@@ -1,90 +1,88 @@
 $(document).ready(function () {
     $("#formulario").validate({
-        rules:{
-            nombre:{
+        rules: {
+            nombre: {
                 required: true,
                 minlength: 3,
                 maxlength: 30
             },
-            email:{
+            email: {
                 required: true,
                 email: true
             },
-    
-            rut:{
+
+            rut: {
                 required: true,
                 number: true,
                 minlength: 8,
                 maxlength: 9
             },
-    
-            telefono:{
+
+            telefono: {
                 minlength: 8,
                 maxlength: 9
             },
-    
-            city:{
+
+            city: {
                 required: true
             },
-    
-            comentario:{
+
+            comentario: {
                 required: true,
                 minlength: 50
-    
+
             },
         },
-    
-        messages:{
-            nombre:{
-                required:"Ingresa tu nombre",
+
+        messages: {
+            nombre: {
+                required: "Ingresa tu nombre",
                 minlength: "Nombre demasiado corto",
                 maxlength: "Nombre demasiado largo"
             },
-            email:{
+            email: {
                 required: "Ingresa tu email",
                 email: "Ingresa un email valido"
             },
-    
-            rut:{
+
+            rut: {
                 required: "Ingresa tu rut",
                 minlength: "Rut no valido",
                 maxlength: "Rut no valido",
                 number: "Rut no valido"
             },
-    
-            telefono:{
+
+            telefono: {
                 minlength: "Ingresa un numero valido",
                 maxlength: "Ingresa un numero valido"
             },
-    
-            city:{
+
+            city: {
                 required: "Selecciona ciudad"
             },
-    
-            comentario:{
+
+            comentario: {
                 required: "Ingresa tu comentario",
                 minlength: "Ingresa mínimo 50 caracteres"
-    
+
             }
-    
-    
-            }
-    
+
+
         }
+
+    }
     )
 });
 
-$("#nombre").focus(function () { 
-    if($("#nombre")==""){
+$("#nombre").focus(function () {
+    if ($("#nombre") == "") {
         console.log("hola jejejeje")
     }
-    
+
 });
 
 
-$("#enviar").click(function() { 
-
-    
+$("#enviar").click(function () {
 
 
     var nombre = $("#nombre").val()
